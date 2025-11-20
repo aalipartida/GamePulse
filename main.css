@@ -89,50 +89,44 @@ li.dropdown {
   #back{
     background-color: #000000;
     padding: 20px;
-    margin: 20px;
-    width: auto;
+    margin: auto;
+    margin-top: 30px;
+    overflow: hidden;
+
 }
 #content {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin-bottom: 20px;
 }
 #content2 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin-bottom: 20px;
 }
 #content3 {
     display: flex;
     flex-direction: row;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin-bottom: 20px;
 }
 #content4 {
     display: flex;
     flex-direction: row;
-    display:flex;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin-bottom: 20px;
 }
 #content5 {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    margin: 30px;
+    margin-bottom: 20px;
 }
 .pic {
     float: left;
-    width: 500px;
+    width: 50px;
     height: 280px;
     background-color: #e2e2e2;
-    margin: 30px;
     color: #000000;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 20px;
     border: #25ba3a 5px solid;
 }
 .text{
@@ -154,8 +148,25 @@ li.dropdown {
     margin: 20px auto;
   }
   .pic {
-    float: none;
-    width: 90% !important;   
+    width: 100% !important;   
+    max-width: 500px;         
+    margin: 15px auto;
+    flex-basis: auto !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+
+  #content,
+  #content2,
+  #content3,
+  #content4,
+  #content5 {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+  }
+  .pic {
+    width: 100% !important;   
     max-width: 500px;         
     margin: 15px auto;
     flex-basis: auto !important;
@@ -163,7 +174,6 @@ li.dropdown {
 }
 
 @media screen and (max-width: 800px) {
-
 
   ulli {
     float: none;
@@ -193,4 +203,3 @@ li.dropdown {
     float: none;
   }
 }
-

@@ -109,6 +109,7 @@ li.dropdown {
   color:#000;
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  align-content: center;
 }
 .us{
   background-color: #e2e2e2;
@@ -126,7 +127,7 @@ li.dropdown {
 .state{
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 0px;
   margin-top: 50px;
   font-size: larger;
 }
