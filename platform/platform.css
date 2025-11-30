@@ -125,9 +125,10 @@ li.dropdown {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
 }
-a.link.pic:link {color: #7833db;}
+a.link:link {color: #000;}
 a.link:visited {color:black;}
 a.link:hover {color:#ff0098;}
+a.link:active {color:#25ba3a;}
 
 
 @media screen and (max-width: 800px) {
